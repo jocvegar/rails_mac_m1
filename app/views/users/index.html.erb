@@ -24,6 +24,12 @@
   </tbody>
 </table>
 
+<%= content_tag(:p, 'Hello world!') %>
+<%= content_tag(:br) %>
+<%= tag.p('HOLA world!') %>
+<%= tag.br %>
+<%= content_tag(:name, 'HOLA world!') %>
+
 <br>
 
 <%= link_to 'New User', new_user_path %>
